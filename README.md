@@ -11,7 +11,7 @@ license: mit
 ---
 
 <p align="center">
-  <img src="docs/swarm-cat-cafe.png" width="100%">
+  <img src="https://raw.githubusercontent.com/Sunwood-ai-labs/swarm-cat-cafe/refs/heads/main/docs/swarm-cat-cafe.png" width="100%">
   <h1 align="center">🐈 swarm-cat-cafe 🐈</h1>
 </p>
 <p align="center">
