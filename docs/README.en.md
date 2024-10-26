@@ -43,7 +43,7 @@ license: mit
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Sunwood-ai-labs/swarm-cat-cafe">
 </p>
 <h2 align="center">
-  ～ AI Response System for Cat Cafes ～
+  ～ An AI Response System for Cat Cafes ～
 
 <a href="https://github.com/Sunwood-ai-labs/swarm-cat-cafe/blob/main/README.md"><img src="https://img.shields.io/badge/ドキュメント-日本語-white.svg" alt="JA doc"/></a>
 <a href="https://github.com/Sunwood-ai-labs/swarm-cat-cafe/blob/main/docs/README.en.md"><img src="https://img.shields.io/badge/english-document-white.svg" alt="EN doc"></a>
@@ -58,19 +58,19 @@ license: mit
 
 ## 🚀 Project Overview
 
-This project implements an automated response system for cat cafes using the Swarm framework. Multiple AI agents collaborate to handle various customer inquiries.
+This project implements an automated response system for cat cafes using the Swarm framework. Multiple AI agents collaborate to handle various customer inquiries.  v0.1.0 includes corrections to image paths in the README, changes to repository information and logos, and updates to the English README.  A cat cafe image has been added, and the core code for a cat cafe AI system using the Swarm framework has been implemented.
 
 
 ## ✨ Main Features
 
-- **Receptionist Agent:** Understands customer questions and transfers them to the appropriate agent.
-- **Menu Guide Agent:** Answers questions about the cafe's menu.
-- **Reservation Management Agent:** Manages the creation, confirmation, and cancellation of reservations.
-- **Cat Information Agent:** Provides information about the cats in the cafe.
+- Receptionist Agent: Understands customer questions and forwards them to the appropriate agent.
+- Menu Guide Agent: Answers questions about the cafe's menu.
+- Reservation Management Agent: Manages the creation, confirmation, and cancellation of reservations.
+- Cat Information Agent: Provides information about the cats at the cafe.
+- 🎉  v0.1.0 added each agent (receptionist, menu guide, reservation management, cat information) and the main execution file.
 
 
 ## 🔧 How to Use
-
 
 ### Setup
 
@@ -93,7 +93,7 @@ pip install -r requirements.txt
 4. Navigate to the directory containing `main.py`.
 
 
-### Usage
+### Execution
 
 Start the system with the following command:
 
@@ -101,13 +101,13 @@ Start the system with the following command:
 python main.py
 ```
 
-After starting, you can interact with the cat cafe's AI response system on the console.  Enter your questions and receive responses from the agents.
+After startup, you can interact with the cat cafe's AI response system on the console. Enter your questions and receive responses from the agents.
 
 
 ## 📦 Installation Instructions
 
 1. Clone this repository.
-2. Install the required dependencies:
+2. Install the necessary dependencies:
    ```bash
    pip install -r requirements.txt
    ```
@@ -129,7 +129,7 @@ Follow these steps to set up the environment for this project:
    .venv\Scripts\activate  # Windows
    ```
 
-3. Install dependencies:
+3. Install the dependencies:
 
    ```bash
    pip install -r requirements.txt
@@ -138,10 +138,10 @@ Follow these steps to set up the environment for this project:
 These steps will prepare the development environment for this project.
 
 
-## 📚 Major Components
+## 📚 Main Components
 
 ### 🤖 [Swarm](https://github.com/openai/swarm)
-- A framework developed by OpenAI that allows multiple AI agents to collaborate to perform tasks.
+- A framework developed by OpenAI for multiple AI agents to cooperate in performing tasks.
 
 
 ## 🐈 Processing Flow
@@ -152,9 +152,9 @@ These steps will prepare the development environment for this project.
 
 graph LR
     A[Customer Inquiry] --> B{Receptionist Agent}
-    B -- Menu-related questions --> C[Menu Guide Agent]
-    B -- Reservation-related questions --> D[Reservation Management Agent]
-    B -- Cat-related questions --> E[Cat Information Agent]
+    B -- Menu related questions --> C[Menu Guide Agent]
+    B -- Reservation related questions --> D[Reservation Management Agent]
+    B -- Cat related questions --> E[Cat Information Agent]
     C --> F[Response]
     D --> F
     E --> F
@@ -169,13 +169,27 @@ graph LR
 
 ## 🤝 Contributions
 
-This project is open source and welcomes contributions from the community. Please help improve this project through bug reports, feature requests, and pull requests.
+This project welcomes contributions from the community as an open-source project. Please help improve this project through bug reports, feature requests, and pull requests.
 
 ## 📄 License
 
 This project is licensed under the MIT License.
 
 ## 🙏 Acknowledgements
+
+iris-s-coon, Maki 
+
+## 🆕 Latest Information (v0.1.0)
+
+- 🎉 Added cat cafe image.
+- 🎉 Added the main execution file for the cat cafe AI system using the Swarm framework.
+- 🎉 Added each agent (receptionist, menu guide, reservation management, cat information).
+- 🎉 Defined functions used by Swarm agents.
+- 🎉 Added reservation information manipulation function file, menu information acquisition function file, cat information acquisition function file, function file initialization file, and Swarm agent initialization file.
+- 🚀 Corrected image paths in README.md.
+- 🚀 Updated README.md.
+- ⚠️ Repository name changed from `HarmonAI_III` to `swarm-cat-cafe`.
+- ⚠️ Related settings have been updated due to the repository name change.
 
 
 ---
