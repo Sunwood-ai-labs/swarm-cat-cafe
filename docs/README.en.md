@@ -11,7 +11,7 @@ license: mit
 ---
 
 <p align="center">
-  <img src="docs/swarm-cat-cafe.png" width="100%">
+  <img src="https://raw.githubusercontent.com/Sunwood-ai-labs/swarm-cat-cafe/refs/heads/main/docs/swarm-cat-cafe.png" width="100%">
   <h1 align="center">🐈 swarm-cat-cafe 🐈</h1>
 </p>
 <p align="center">
@@ -43,7 +43,7 @@ license: mit
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Sunwood-ai-labs/swarm-cat-cafe">
 </p>
 <h2 align="center">
-  ～ An AI Response System for Cat Cafes ～
+  ～ AI Response System for Cat Cafes ～
 
 <a href="https://github.com/Sunwood-ai-labs/swarm-cat-cafe/blob/main/README.md"><img src="https://img.shields.io/badge/ドキュメント-日本語-white.svg" alt="JA doc"/></a>
 <a href="https://github.com/Sunwood-ai-labs/swarm-cat-cafe/blob/main/docs/README.en.md"><img src="https://img.shields.io/badge/english-document-white.svg" alt="EN doc"></a>
@@ -58,15 +58,15 @@ license: mit
 
 ## 🚀 Project Overview
 
-This project implements an automated response system for a cat cafe using the Swarm framework. Multiple AI agents collaborate to handle various customer inquiries.
+This project implements an automated response system for cat cafes using the Swarm framework. Multiple AI agents collaborate to handle various customer inquiries.
 
 
 ## ✨ Main Features
 
-- **Receptionist Agent:** Understands customer questions and routes them to the appropriate agent.
+- **Receptionist Agent:** Understands customer questions and transfers them to the appropriate agent.
 - **Menu Guide Agent:** Answers questions about the cafe's menu.
 - **Reservation Management Agent:** Manages the creation, confirmation, and cancellation of reservations.
-- **Cat Information Agent:** Provides information about the cats at the cafe.
+- **Cat Information Agent:** Provides information about the cats in the cafe.
 
 
 ## 🔧 How to Use
@@ -101,7 +101,7 @@ Start the system with the following command:
 python main.py
 ```
 
-After starting, you can interact with the cat cafe's AI response system on the console. Enter your questions and receive responses from the agents.
+After starting, you can interact with the cat cafe's AI response system on the console.  Enter your questions and receive responses from the agents.
 
 
 ## 📦 Installation Instructions
@@ -115,7 +115,7 @@ After starting, you can interact with the cat cafe's AI response system on the c
 
 ## 🌿 Environment Setup
 
-To set up the environment for this project, follow these steps:
+Follow these steps to set up the environment for this project:
 
 1. Create a virtual environment:
    ```bash
@@ -138,10 +138,10 @@ To set up the environment for this project, follow these steps:
 These steps will prepare the development environment for this project.
 
 
-## 📚 Main Components
+## 📚 Major Components
 
 ### 🤖 [Swarm](https://github.com/openai/swarm)
-- A framework developed by OpenAI for multiple AI agents to collaborate on tasks.
+- A framework developed by OpenAI that allows multiple AI agents to collaborate to perform tasks.
 
 
 ## 🐈 Processing Flow
@@ -152,9 +152,9 @@ These steps will prepare the development environment for this project.
 
 graph LR
     A[Customer Inquiry] --> B{Receptionist Agent}
-    B -- Menu related question --> C[Menu Guide Agent]
-    B -- Reservation related question --> D[Reservation Management Agent]
-    B -- Cat related question --> E[Cat Information Agent]
+    B -- Menu-related questions --> C[Menu Guide Agent]
+    B -- Reservation-related questions --> D[Reservation Management Agent]
+    B -- Cat-related questions --> E[Cat Information Agent]
     C --> F[Response]
     D --> F
     E --> F
@@ -169,7 +169,7 @@ graph LR
 
 ## 🤝 Contributions
 
-This project is an open-source project and welcomes contributions from the community. Please help improve this project through bug reports, feature requests, and pull requests.
+This project is open source and welcomes contributions from the community. Please help improve this project through bug reports, feature requests, and pull requests.
 
 ## 📄 License
 
