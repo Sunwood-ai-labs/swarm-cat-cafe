@@ -11,42 +11,42 @@ license: mit
 ---
 
 <p align="center">
-  <img src="docs/HarmonAI-III.png" width="100%">
+  <img src="https://raw.githubusercontent.com/Sunwood-ai-labs/swarm-cat-cafe/refs/heads/main/docs/swarm-cat-cafe.png" width="100%">
   <h1 align="center">🐈 swarm-cat-cafe 🐈</h1>
 </p>
 <p align="center">
-  <a href="https://github.com/your-username/swarm-cat-cafe">
+  <a href="https://github.com/Sunwood-ai-labs/swarm-cat-cafe">
     <img alt="GitHub Repo" src="https://img.shields.io/badge/github-swarm--cat--cafe-blue?logo=github">
   </a>
-  <a href="https://github.com/your-username/swarm-cat-cafe/blob/main/LICENSE">
-    <img alt="License" src="https://img.shields.io/github/license/your-username/swarm-cat-cafe?color=green">
+  <a href="https://github.com/Sunwood-ai-labs/swarm-cat-cafe/blob/main/LICENSE">
+    <img alt="License" src="https://img.shields.io/github/license/Sunwood-ai-labs/swarm-cat-cafe?color=green">
   </a>
-  <a href="https://github.com/your-username/swarm-cat-cafe/stargazers">
-    <img alt="GitHub stars" src="https://img.shields.io/github/stars/your-username/swarm-cat-cafe?style=social">
+  <a href="https://github.com/Sunwood-ai-labs/swarm-cat-cafe/stargazers">
+    <img alt="GitHub stars" src="https://img.shields.io/github/stars/Sunwood-ai-labs/swarm-cat-cafe?style=social">
   </a>
-  <a href="https://github.com/your-username/swarm-cat-cafe/releases">
-    <img alt="GitHub release" src="https://img.shields.io/github/v/release/your-username/swarm-cat-cafe?include_prereleases&style=flat-square">
+  <a href="https://github.com/Sunwood-ai-labs/swarm-cat-cafe/releases">
+    <img alt="GitHub release" src="https://img.shields.io/github/v/release/Sunwood-ai-labs/swarm-cat-cafe?include_prereleases&style=flat-square">
   </a>
-  <a href="https://github.com/your-username/swarm-cat-cafe/issues">
-    <img alt="GitHub issues" src="https://img.shields.io/github/issues/your-username/swarm-cat-cafe">
+  <a href="https://github.com/Sunwood-ai-labs/swarm-cat-cafe/issues">
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues/Sunwood-ai-labs/swarm-cat-cafe">
   </a>
-  <a href="https://github.com/your-username/swarm-cat-cafe/pulls">
+  <a href="https://github.com/Sunwood-ai-labs/swarm-cat-cafe/pulls">
     <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square">
   </a>
-  <a href="https://github.com/your-username/swarm-cat-cafe/network/members">
-    <img alt="GitHub forks" src="https://img.shields.io/github/forks/your-username/swarm-cat-cafe?style=social">
+  <a href="https://github.com/Sunwood-ai-labs/swarm-cat-cafe/network/members">
+    <img alt="GitHub forks" src="https://img.shields.io/github/forks/Sunwood-ai-labs/swarm-cat-cafe?style=social">
   </a>
-  <a href="https://github.com/your-username/swarm-cat-cafe/watchers">
-    <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/your-username/swarm-cat-cafe?style=social">
+  <a href="https://github.com/Sunwood-ai-labs/swarm-cat-cafe/watchers">
+    <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/Sunwood-ai-labs/swarm-cat-cafe?style=social">
   </a>
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/your-username/swarm-cat-cafe">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/your-username/swarm-cat-cafe">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Sunwood-ai-labs/swarm-cat-cafe">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Sunwood-ai-labs/swarm-cat-cafe">
 </p>
 <h2 align="center">
-  ～ Cat Cafe AI Response System ～
+  ～ An AI Response System for Cat Cafes ～
 
-<a href="https://github.com/your-username/swarm-cat-cafe/blob/main/README.md"><img src="https://img.shields.io/badge/ドキュメント-日本語-white.svg" alt="JA doc"/></a>
-<a href="https://github.com/your-username/swarm-cat-cafe/blob/main/docs/README.en.md"><img src="https://img.shields.io/badge/english-document-white.svg" alt="EN doc"></a>
+<a href="https://github.com/Sunwood-ai-labs/swarm-cat-cafe/blob/main/README.md"><img src="https://img.shields.io/badge/ドキュメント-日本語-white.svg" alt="JA doc"/></a>
+<a href="https://github.com/Sunwood-ai-labs/swarm-cat-cafe/blob/main/docs/README.en.md"><img src="https://img.shields.io/badge/english-document-white.svg" alt="EN doc"></a>
 </h2>
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python" alt="Python">
@@ -58,19 +58,19 @@ license: mit
 
 ## 🚀 Project Overview
 
-This project implements an automated response system for a cat cafe using the Swarm framework. Multiple AI agents collaborate to handle various customer inquiries.
+This project implements an automated response system for cat cafes using the Swarm framework. Multiple AI agents collaborate to handle various customer inquiries.  v0.1.0 includes corrections to image paths in the README, changes to repository information and logos, and updates to the English README.  A cat cafe image has been added, and the core code for a cat cafe AI system using the Swarm framework has been implemented.
 
 
-## ✨ Key Features
+## ✨ Main Features
 
-- **Receptionist Agent:** Understands customer questions and routes them to the appropriate agent.
-- **Menu Guide Agent:** Answers questions about the cafe's menu.
-- **Reservation Management Agent:** Manages the creation, confirmation, and cancellation of reservations.
-- **Cat Information Agent:** Provides information about the cats at the cafe.
+- Receptionist Agent: Understands customer questions and forwards them to the appropriate agent.
+- Menu Guide Agent: Answers questions about the cafe's menu.
+- Reservation Management Agent: Manages the creation, confirmation, and cancellation of reservations.
+- Cat Information Agent: Provides information about the cats at the cafe.
+- 🎉  v0.1.0 added each agent (receptionist, menu guide, reservation management, cat information) and the main execution file.
 
 
 ## 🔧 How to Use
-
 
 ### Setup
 
@@ -84,7 +84,7 @@ source venv/bin/activate  # Linux
 venv\Scripts\activate  # Windows
 ```
 
-3. Install the required packages:
+3. Install the necessary packages:
 
 ```bash
 pip install -r requirements.txt
@@ -93,7 +93,7 @@ pip install -r requirements.txt
 4. Navigate to the directory containing `main.py`.
 
 
-### Usage
+### Execution
 
 Start the system with the following command:
 
@@ -101,7 +101,7 @@ Start the system with the following command:
 python main.py
 ```
 
-After starting, you can interact with the cat cafe's AI response system on the console. Enter your questions and receive responses from the agents.
+After startup, you can interact with the cat cafe's AI response system on the console. Enter your questions and receive responses from the agents.
 
 
 ## 📦 Installation Instructions
@@ -115,13 +115,13 @@ After starting, you can interact with the cat cafe's AI response system on the c
 
 ## 🌿 Environment Setup
 
-To set up the environment for this project, follow these steps:
+Follow these steps to set up the environment for this project:
 
 1. Create a virtual environment:
    ```bash
    python3 -m venv .venv
    ```
-   This will create a virtual environment in the `.venv` directory.
+   This creates a virtual environment in the `.venv` directory.
 
 2. Activate the virtual environment:
    ```bash
@@ -129,7 +129,7 @@ To set up the environment for this project, follow these steps:
    .venv\Scripts\activate  # Windows
    ```
 
-3. Install dependencies:
+3. Install the dependencies:
 
    ```bash
    pip install -r requirements.txt
@@ -138,10 +138,10 @@ To set up the environment for this project, follow these steps:
 These steps will prepare the development environment for this project.
 
 
-## 📚 Major Components
+## 📚 Main Components
 
 ### 🤖 [Swarm](https://github.com/openai/swarm)
-- A framework developed by OpenAI for multiple AI agents to collaborate and perform tasks.
+- A framework developed by OpenAI for multiple AI agents to cooperate in performing tasks.
 
 
 ## 🐈 Processing Flow
@@ -152,9 +152,9 @@ These steps will prepare the development environment for this project.
 
 graph LR
     A[Customer Inquiry] --> B{Receptionist Agent}
-    B -- Menu-related question --> C[Menu Guide Agent]
-    B -- Reservation-related question --> D[Reservation Management Agent]
-    B -- Cat-related question --> E[Cat Information Agent]
+    B -- Menu related questions --> C[Menu Guide Agent]
+    B -- Reservation related questions --> D[Reservation Management Agent]
+    B -- Cat related questions --> E[Cat Information Agent]
     C --> F[Response]
     D --> F
     E --> F
@@ -169,13 +169,27 @@ graph LR
 
 ## 🤝 Contributions
 
-This project is an open-source project and welcomes contributions from the community. Please help improve this project through bug reports, feature requests, and pull requests.
+This project welcomes contributions from the community as an open-source project. Please help improve this project through bug reports, feature requests, and pull requests.
 
 ## 📄 License
 
 This project is licensed under the MIT License.
 
 ## 🙏 Acknowledgements
+
+iris-s-coon, Maki 
+
+## 🆕 Latest Information (v0.1.0)
+
+- 🎉 Added cat cafe image.
+- 🎉 Added the main execution file for the cat cafe AI system using the Swarm framework.
+- 🎉 Added each agent (receptionist, menu guide, reservation management, cat information).
+- 🎉 Defined functions used by Swarm agents.
+- 🎉 Added reservation information manipulation function file, menu information acquisition function file, cat information acquisition function file, function file initialization file, and Swarm agent initialization file.
+- 🚀 Corrected image paths in README.md.
+- 🚀 Updated README.md.
+- ⚠️ Repository name changed from `HarmonAI_III` to `swarm-cat-cafe`.
+- ⚠️ Related settings have been updated due to the repository name change.
 
 
 ---
