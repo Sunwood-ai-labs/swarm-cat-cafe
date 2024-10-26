@@ -1,137 +1,127 @@
 ---
-title: HarmonAI III
-emoji: 🦀
-colorFrom: green
-colorTo: blue
-sdk: streamlit
-sdk_version: 1.39.0
-app_file: app.py
+title: Cat Cafe Swarm AI Response System
+emoji: 🐱
+colorFrom: yellow
+colorTo: orange
+sdk: python
+sdk_version: 3.11.4
+app_file: main.py
 pinned: false
 license: mit
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Sunwood-ai-labs/HarmonAI_III/refs/heads/main/docs/HarmonAI-III.png" width="100%">
-  <h1 align="center">🌟 HarmonAI III 🌟</h1>
+  <img src="docs/HarmonAI-III.png" width="100%">
+  <h1 align="center">🐈 swarm-cat-cafe 🐈</h1>
 </p>
 <p align="center">
-  <a href="https://github.com/Sunwood-ai-labs/HarmonAI_III">
-    <img alt="GitHub Repo" src="https://img.shields.io/badge/github-HarmonAI__III-blue?logo=github">
+  <a href="https://github.com/your-username/swarm-cat-cafe">
+    <img alt="GitHub Repo" src="https://img.shields.io/badge/github-swarm--cat--cafe-blue?logo=github">
   </a>
-  <a href="https://github.com/Sunwood-ai-labs/HarmonAI_III/blob/main/LICENSE">
-    <img alt="License" src="https://img.shields.io/github/license/Sunwood-ai-labs/HarmonAI_III?color=green">
+  <a href="https://github.com/your-username/swarm-cat-cafe/blob/main/LICENSE">
+    <img alt="License" src="https://img.shields.io/github/license/your-username/swarm-cat-cafe?color=green">
   </a>
-  <a href="https://github.com/Sunwood-ai-labs/HarmonAI_III/stargazers">
-    <img alt="GitHub stars" src="https://img.shields.io/github/stars/Sunwood-ai-labs/HarmonAI_III?style=social">
+  <a href="https://github.com/your-username/swarm-cat-cafe/stargazers">
+    <img alt="GitHub stars" src="https://img.shields.io/github/stars/your-username/swarm-cat-cafe?style=social">
   </a>
-  <a href="https://github.com/Sunwood-ai-labs/HarmonAI_III/releases">
-    <img alt="GitHub release" src="https://img.shields.io/github/v/release/Sunwood-ai-labs/HarmonAI_III?include_prereleases&style=flat-square">
+  <a href="https://github.com/your-username/swarm-cat-cafe/releases">
+    <img alt="GitHub release" src="https://img.shields.io/github/v/release/your-username/swarm-cat-cafe?include_prereleases&style=flat-square">
   </a>
-  <a href="https://github.com/Sunwood-ai-labs/HarmonAI_III/issues">
-    <img alt="GitHub issues" src="https://img.shields.io/github/issues/Sunwood-ai-labs/HarmonAI_III">
+  <a href="https://github.com/your-username/swarm-cat-cafe/issues">
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues/your-username/swarm-cat-cafe">
   </a>
-  <a href="https://github.com/Sunwood-ai-labs/HarmonAI_III/pulls">
+  <a href="https://github.com/your-username/swarm-cat-cafe/pulls">
     <img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square">
   </a>
-  <a href="https://github.com/Sunwood-ai-labs/HarmonAI_III/network/members">
-    <img alt="GitHub forks" src="https://img.shields.io/github/forks/Sunwood-ai-labs/HarmonAI_III?style=social">
+  <a href="https://github.com/your-username/swarm-cat-cafe/network/members">
+    <img alt="GitHub forks" src="https://img.shields.io/github/forks/your-username/swarm-cat-cafe?style=social">
   </a>
-  <a href="https://github.com/Sunwood-ai-labs/HarmonAI_III/watchers">
-    <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/Sunwood-ai-labs/HarmonAI_III?style=social">
+  <a href="https://github.com/your-username/swarm-cat-cafe/watchers">
+    <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/your-username/swarm-cat-cafe?style=social">
   </a>
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Sunwood-ai-labs/HarmonAI_III">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/Sunwood-ai-labs/HarmonAI_III">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/your-username/swarm-cat-cafe">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/your-username/swarm-cat-cafe">
 </p>
 <h2 align="center">
-  ～ AI-Powered Automated Repository Management Template ～
+  ～ Cat Cafe AI Response System ～
 
-<a href="https://github.com/Sunwood-ai-labs/HarmonAI_III/blob/main/README.md"><img src="https://img.shields.io/badge/ドキュメント-日本語-white.svg" alt="JA doc"/></a>
-<a href="https://github.com/Sunwood-ai-labs/HarmonAI_III/blob/main/docs/README.en.md"><img src="https://img.shields.io/badge/english-document-white.svg" alt="EN doc"></a>
+<a href="https://github.com/your-username/swarm-cat-cafe/blob/main/README.md"><img src="https://img.shields.io/badge/ドキュメント-日本語-white.svg" alt="JA doc"/></a>
+<a href="https://github.com/your-username/swarm-cat-cafe/blob/main/docs/README.en.md"><img src="https://img.shields.io/badge/english-document-white.svg" alt="EN doc"></a>
 </h2>
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python" alt="Python">
   <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai" alt="OpenAI">
-  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=google" alt="Google Gemini">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git" alt="Git">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github" alt="GitHub">
-  <img src="https://img.shields.io/badge/Actions-2088FF?style=for-the-badge&logo=github-actions" alt="GitHub Actions">
-  <img src="https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&logo=yaml" alt="YAML">
-  <img src="https://img.shields.io/badge/pip-3775A9?style=for-the-badge&logo=pypi" alt="pip">
-  <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown" alt="Markdown">
-  <img src="https://img.shields.io/badge/GitHub_API-181717?style=for-the-badge&logo=github" alt="GitHub API">
-</p>
-<p align="center">
-  <a href="https://github.com/Sunwood-ai-labs/AIRA">
-    <img src="https://img.shields.io/badge/AIRA-FF4500?style=for-the-badge&logo=github" alt="AIRA">
-  </a>
-  <a href="https://github.com/Sunwood-ai-labs/IRIS">
-    <img src="https://img.shields.io/badge/IRIS-9370DB?style=for-the-badge&logo=github" alt="IRIS">
-  </a>
+  <img src="https://img.shields.io/badge/Swarm-FF4500?style=for-the-badge&logo=github" alt="Swarm">
 </p>
 
 
-> [!IMPORTANT]
-> HarmonAI III is a template repository developed using [cline (formerly Claude Dev)](https://github.com/clinebot/cline), [SourceSage](https://github.com/Sunwood-ai-labs/SourceSage), and [claude.ai](https://claude.ai/).  The majority of the release notes, README, and commit messages were generated using the latest AI technology.
 
 ## 🚀 Project Overview
 
-HarmonAI III is an innovative **AI repository starter kit** integrating AIRA and IRIS. This repository aims to dramatically improve developer efficiency by providing the structure and workflow for AI development projects leveraging LLMs. Version: `v1.3.0`
+This project implements an automated response system for a cat cafe using the Swarm framework. Multiple AI agents collaborate to handle various customer inquiries.
 
 
-## 🆕 Latest News
+## ✨ Key Features
 
-- 🎉 **v1.3.0 Released**:  Created a basic Streamlit app structure, improved README file design, fixed several bugs, and updated the documentation. The Streamlit app now includes a feature to display the contents of the README.md file. Error handling for cases where the README.md file is missing has also been added.  Furthermore, we've added a collaborator addition script for the GitHub repository, an automated synchronization workflow with Hugging Face Hub, and an automated deployment workflow to PyPI.
-
-
-## ✨ Main Features
-
-1. **Integrated AI Toolset**: Provides the functionalities of AIRA and IRIS in a single package.
-2. **Ready to Use**: Easily create a repository with a high-quality initial structure by using it as a template.
-3. **Automated Development Workflow**: Automates commit message generation, release note creation, and issue management.
-4. **Multilingual Support**: Supports international project deployment through automated README translation.
-5. **Flexible Customization**: Easily adjustable to suit the needs of your project.
-6. **Automated Collaborator Invitation**: Collaborator invitation script using the GitHub API.
-7. **Streamlit App**: A basic Streamlit application that displays the README.md file.
+- **Receptionist Agent:** Understands customer questions and routes them to the appropriate agent.
+- **Menu Guide Agent:** Answers questions about the cafe's menu.
+- **Reservation Management Agent:** Manages the creation, confirmation, and cancellation of reservations.
+- **Cat Information Agent:** Provides information about the cats at the cafe.
 
 
 ## 🔧 How to Use
 
-### Running the Streamlit App
-1. Install the necessary packages with `pip install -r requirements.txt`.
-2. Run `streamlit run app.py`.
 
-### AIRA Example:
+### Setup
+
+1. Clone or download the project.
+
+2. Create and activate a virtual environment:
+
 ```bash
-aira --mode sourcesage commit  --config=.aira\config.dev.commit.yml --ss-model-name="gpt-4o-mini" --llm-output="llm_output.md"
+python -m venv venv
+source venv/bin/activate  # Linux
+venv\Scripts\activate  # Windows
 ```
 
-### IRIS Example:
+3. Install the required packages:
 
-Refer to the documentation of each component for detailed usage instructions.
+```bash
+pip install -r requirements.txt
+```
+
+4. Navigate to the directory containing `main.py`.
+
+
+### Usage
+
+Start the system with the following command:
+
+```bash
+python main.py
+```
+
+After starting, you can interact with the cat cafe's AI response system on the console. Enter your questions and receive responses from the agents.
 
 
 ## 📦 Installation Instructions
 
-1. Use this repository as a template to create a new repository.
-2. Clone the repository locally.
-3. Install the necessary dependencies:
+1. Clone this repository.
+2. Install the necessary dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-4. Customize the AIRA and IRIS configuration files.
-5. Check the GitHub Actions settings and configure environment variables as needed.
-6. Open the `.github/release_notes/.sourcesage_releasenotes_iris.yml` file and change the value of `repo-name:` to your new repository name.
 
 
 ## 🌿 Environment Setup
 
-Follow these steps to set up the HarmonAI III environment:
+To set up the environment for this project, follow these steps:
 
 1. Create a virtual environment:
    ```bash
    python3 -m venv .venv
    ```
-   This creates a virtual environment in the `.venv` directory.
+   This will create a virtual environment in the `.venv` directory.
 
 2. Activate the virtual environment:
    ```bash
@@ -140,58 +130,19 @@ Follow these steps to set up the HarmonAI III environment:
    ```
 
 3. Install dependencies:
+
    ```bash
    pip install -r requirements.txt
    ```
 
-These steps will prepare your development environment for HarmonAI III.
+These steps will prepare the development environment for this project.
 
 
-## 📚 Main Components
+## 📚 Major Components
 
-### 🤖 [AIRA (AI-Integrated Repository for Accelerated Development)](https://github.com/Sunwood-ai-labs/AIRA)
-- Automated repository creation
-- Automated commit message generation
+### 🤖 [Swarm](https://github.com/openai/swarm)
+- A framework developed by OpenAI for multiple AI agents to collaborate and perform tasks.
 
-### 🌈 [IRIS (Intelligent Repository Issue Solver)](https://github.com/Sunwood-ai-labs/IRIS)
-- Automated issue classification
-- Automated solution suggestion
-- Automated release note generation
-- Automated README translation
-
-## 🤝 Automated Collaborator Invitation
-
-HarmonAI III includes a script to automatically invite collaborators to the GitHub repository.  Use it with the following steps:
-
-1. Create a `.env` file and set the necessary tokens:
-   ```
-   # GitHub access token (for collaborator invitation)
-   GITHUB_TOKEN=your_github_personal_access_token_here
-
-   # The following are examples of tokens that may be used by other functions.  It's convenient to have them written down for later use.
-   # GITHUB_ACCESS_TOKEN=ghp_xxxxx
-   # YOUR_PERSONAL_ACCESS_TOKEN_IRIS=ghp_yyyyy
-   # GEMINI_API_KEY=AIzzzzz
-   ```
-
-   Note: Include the `.env` file in `.gitignore` to prevent it from being committed to the repository.
-
-2. Run the following command to invite collaborators:
-   ```bash
-   python .github/github_add_collaborator.py Sunwood-ai-labs/HarmonAI_III username_to_invite
-   ```
-
-   Replace `username_to_invite` with the GitHub username you want to invite.
-
-3. Once the script runs successfully, a collaborator invitation will be sent to the specified user.
-
-Cautions:
-- This script requires the GitHub token to have the appropriate permissions (`repo` scope).
-- When using it for an organization's repository, ensure that appropriate permissions are granted in the organization's settings.
-- For security, update tokens regularly and grant only the minimum necessary permissions.
-- Never commit information, including the `.env` file and tokens, to a public repository.
-
-This feature simplifies the process of adding new contributors to your project.  You can efficiently expand your team while maintaining security.
 
 ## 🐈 Processing Flow
 
@@ -200,20 +151,17 @@ This feature simplifies the process of adding new contributors to your project. 
 %%{init:{'theme':'base','themeVariables':{'primaryColor':'#024959','primaryTextColor':'#F2C335','primaryBorderColor':'#F2AE30','lineColor':'#A1A2A6','secondaryColor':'#593E25','tertiaryColor':'#F2C335','noteTextColor':'#024959','noteBkgColor':'#F2C335','textColor':'#024959','fontSize':'18px'}}}%%
 
 graph LR
-    A[Start] --> B[Repository Conception and Naming]
-    B -->|Human Action| C[HarmonAI III Repository Initialization]
-    C -->|Automated| D[Development Work]
-    D -->|Human Action| E[AIRA Automated Commits]
-    E --> H[IRIS Release Note Creation]
-    H --> I[IRIS Documentation Translation]
-    I --> J[Release]
-    J --> K[End]
+    A[Customer Inquiry] --> B{Receptionist Agent}
+    B -- Menu-related question --> C[Menu Guide Agent]
+    B -- Reservation-related question --> D[Reservation Management Agent]
+    B -- Cat-related question --> E[Cat Information Agent]
+    C --> F[Response]
+    D --> F
+    E --> F
+    F --> G[Response to Customer]
 
-    class B,D,G human;
-    class E aira;
-    class F,H,I iris;
-    class C auto;
-    class A,J,K process;
+    class B,C,D,E agent;
+    class A,G process;
 
 ```
 
@@ -221,16 +169,13 @@ graph LR
 
 ## 🤝 Contributions
 
-HarmonAI III welcomes contributions from the community as an open-source project. Please help improve this template repository through bug reports, feature requests, and pull requests.
+This project is an open-source project and welcomes contributions from the community. Please help improve this project through bug reports, feature requests, and pull requests.
 
 ## 📄 License
 
-HarmonAI III is licensed under the [MIT License](LICENSE).
+This project is licensed under the MIT License.
 
 ## 🙏 Acknowledgements
 
-HarmonAI III has drawn inspiration from many open-source projects during its development. We extend our deepest gratitude to the developers of AIRA and IRIS, in particular.  We also thank iris-s-coon and Maki.
 
 ---
-
-HarmonAI III is an excellent starter kit for achieving an AI-driven development process.  Start developing innovative AI projects based on this template!
