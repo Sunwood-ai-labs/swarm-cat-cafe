@@ -143,6 +143,9 @@ python main.py
 ### 🤖 [Swarm](https://github.com/openai/swarm)
 - OpenAIが開発した、複数のAIエージェントが協力してタスクを実行するためのフレームワーク
 
+### 🤖 [swarm-sample-box](https://github.com/Sunwood-ai-labs/swarm-sample-box)
+- Swarmの日本語チュートリアル
+
 
 ## 🐈 処理フロー
 
