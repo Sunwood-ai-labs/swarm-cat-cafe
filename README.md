@@ -151,18 +151,12 @@ python main.py
 %%{init:{'theme':'base','themeVariables':{'primaryColor':'#024959','primaryTextColor':'#F2C335','primaryBorderColor':'#F2AE30','lineColor':'#A1A2A6','secondaryColor':'#593E25','tertiaryColor':'#F2C335','noteTextColor':'#024959','noteBkgColor':'#F2C335','textColor':'#024959','fontSize':'18px'}}}%%
 
 graph LR
-    A[顧客からの問い合わせ] --> B{受付係エージェント}
-    B -- メニューに関する質問 --> C[メニュー案内エージェント]
-    B -- 予約に関する質問 --> D[予約管理エージェント]
-    B -- 猫に関する質問 --> E[猫の情報案内エージェント]
-    C --> F[回答]
-    D --> F
-    E --> F
-    F --> G[顧客への回答]
-
-    class B,C,D,E agent;
-    class A,G process;
-
+    A[顧客] --> B(受付係)
+    B --> C(猫情報案内)
+    B --> D(メニュー案内)
+    B --> E(予約管理)
+    C --> E
+    D --> E
 ```
 
 
