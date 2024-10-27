@@ -11,7 +11,7 @@ license: mit
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Sunwood-ai-labs/swarm-cat-cafe/refs/heads/main/docs/swarm-cat-cafe.png" width="100%">
+  <img src="https://raw.githubusercontent.com/Sunwood-ai-labs/swarm-cat-cafe/refs/heads/main/docs/swarm-cat-cafe2.png" width="100%">
   <h1 align="center">🐈 swarm-cat-cafe 🐈</h1>
 </p>
 <p align="center">
@@ -142,6 +142,9 @@ python main.py
 
 ### 🤖 [Swarm](https://github.com/openai/swarm)
 - OpenAIが開発した、複数のAIエージェントが協力してタスクを実行するためのフレームワーク
+
+### 🤖 [swarm-sample-box](https://github.com/Sunwood-ai-labs/swarm-sample-box)
+- Swarmの日本語チュートリアル
 
 
 ## 🐈 処理フロー
